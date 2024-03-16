@@ -1,0 +1,11 @@
+#docsScreen > div > aside > div {
+	position: fixed;
+	top: 2rem;
+	overflow-y: auto;
+	height: calc(100% - 2rem);
+}
+
+#docsScreen > div > aside > div > div {
+	overflow-y: auto;
+	padding-bottom: 2rem;
+}

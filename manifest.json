@@ -1,0 +1,15 @@
+{
+	"name": "Laravel Docs Fixed Sidebar",
+	"description": "Make sidebar on Laravel docs website fixed.",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"action": {
+		"default_title": "execute.js will run (watch the Chrome DevTools' console)"
+	},
+	"content_scripts": [
+		{
+			"css": ["main.css"],
+			"matches": ["https://laravel.com/docs/*"]
+		}
+	]
+}
